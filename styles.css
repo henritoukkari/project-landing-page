@@ -1,0 +1,298 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 25px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+  }
+  
+  .s-header {
+   font-size: 30px;
+   font-weight: bold;
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #1F2937;
+  }
+  
+  .box-1 {
+    width: 140px;
+    border-radius: 15px;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    background-image: url('https://cdn.pixabay.com/photo/2022/12/19/14/14/new-york-7665799_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  
+
+  .box-2 {
+    width: 140px;
+    border-radius: 15px;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    background-image: url('https://cdn.pixabay.com/photo/2022/12/19/14/14/new-york-7665799_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  
+  .box-3 {
+    width: 140px;
+    border-radius: 15px;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    background-image: url('https://cdn.pixabay.com/photo/2022/12/19/14/14/new-york-7665799_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  
+  .box-4 {
+    width: 140px;
+    border-radius: 15px;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    background-image: url('https://cdn.pixabay.com/photo/2022/12/19/14/14/new-york-7665799_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  
+
+  
+  .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    gap: 28px;
+    padding-bottom: 90px;
+    background-color: #1F2937;
+  }
+  
+  .text-1 {
+    width: 140px;
+    color: #F9FAF8;
+  }
+  
+  .text-2 {
+    width: 140px;
+    color: #F9FAF8;
+  }
+  
+  .text-3 {
+    width: 140px;
+    color: #F9FAF8;
+  }
+  
+  .text-4 {
+    width: 140px;
+    color: #F9FAF8;
+  }
+  
+  
+  
+  ul {
+    list-style: none;
+    gap: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #E5E7EB;
+  }
+  
+  
+  
+  .header-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 110px;
+    background-color: #1F2937;
+    color: #F9FAF8;  
+  }
+  
+  .header-2 {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+     background-image: url("https://cdn.pixabay.com/photo/2020/03/09/16/46/glitter-4916366_960_720.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 300px; /* Set a spefici height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  
+  .sub-text {
+    width: 20px;
+  }
+  
+  .sub-text2 {
+    width: 360px;
+  }
+  
+  .links {
+    display: flex;
+    font-size: 25px;
+  }
+  
+  .links-2 {
+    padding: 0 110px;
+  }
+  
+  .sub-text {
+    font-size: 68px;
+    font-weight: bold;
+    width: 400px;
+  }
+  
+  .button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .placeholder {
+    background-color: grey;
+    color: #E5E7EB;
+    width: 430px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+  }
+  
+  .text {
+    width: 800px;
+    padding-top: 45px;
+    padding-bottom: 35px;
+    font-size: 45px;
+    flex-shrink: 0;
+  }
+  
+  .quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    padding-left: 170px;
+    padding-bottom: 15px 90px;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.pixabay.com/photo/2022/11/05/09/47/sea-7571473_960_720.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 300px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  
+  .quote-denzel {
+    font-size: 25px;
+  }
+
+
+
+.bottom-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.offer-text {
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 1px 1px 1px whitesmoke;
+}
+
+.free-month {
+    font-size: 30px;
+    width: 200px;
+    color: #FFFFFF;
+}
+
+
+  .footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .sign-up {
+    border-radius: 15px;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .action-text {
+    font-weight: bold;
+  }
+  
+  .img-holder {
+    color: white;
+    width: 500px;
+    height: 180px;
+    padding: 50px;
+    margin: 20px;
+    background-color: grey;
+    border-radius: 8px;
+    display: flex;
+  }
+  
+  
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height: 180px;
+    width: 370px;
+    display: flex;
+  }
+  
+  
